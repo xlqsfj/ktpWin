@@ -1,0 +1,12 @@
+1.获取token
+
+https://admin.ktpis.com/auth/app/token/login?grant_type=app_mobile&app_mobile=APP_SMS@eyJ1c2VySW1lYSI6IjMyNjUyMSIsInBob25lIjoiMTM4MTIzNDU2NzgiLCJ2ZXJzaW9uIjoidjEuMCJ9
+
+access_token=Authorization参数变量,作为每次请求的token(Bearer access_token)
+=================================================================
+2.常规调用示例=获取班组列表
+url:
+https://admin.ktpis.com/business/organ/list?projectId=56
+
+headers:
+Authorization = Bearer ca0d9db4-7582-481c-8dea-778104b8e768

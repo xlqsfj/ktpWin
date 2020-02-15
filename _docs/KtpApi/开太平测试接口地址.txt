@@ -1,0 +1,54 @@
+新增：
+
+：
+
+https://t.ktpis.com/api/ts/add_qiniu.asp 提交测 提交测试页
+
+页
+
+https://t.ktpis.com/api/ts/add_qiniu_save.asp --  -- 接收页
+
+
+
+修改：
+
+：
+
+https://t.ktpis.com/api/ts/edit_qiniu.asp-- 提交测 提交测试页
+
+页
+
+https://t.ktpis.com/api/ts/edit_qiniu_save.asp --  -- 接收页
+
+
+
+闸机通过：
+
+：
+
+https://t.ktpis.com/api/ts/zj_qiniu.asp-- 提交测 提交测试页
+
+页
+
+https://t.ktpis.com/api/ts/zj_qiniu_save.asp --  -- 接收页
+
+
+参数解读：
+新增工人/修改工人接口的Url将会变动，变成成原有Url上加后缀_new。即url_new。
+
+新增/修改工人参数解读：
+
+工人卡号：无卡号，可随机唯一(身份证号）
+接口密码：写死固定，123456789
+接口加密方式：MD5
+工人图片url:本地图片上传七牛后，得到的网络图片URl
+图片大小限制：压缩图片到200K以内，质量又要保证。
+身份证照和工人照片相似度：百度调用图片人脸识别后返回的阈值。
+
+
+工人进出场：
+闸机号：本地闸机号，与人脸识别设备对应的自增id号。
+进出状态：1进闸机，2出闸机
+刷卡状态：成功/失败/报警
+打卡时间:yyyy-MM-dd HH:mm:ss
+描述：可为空。

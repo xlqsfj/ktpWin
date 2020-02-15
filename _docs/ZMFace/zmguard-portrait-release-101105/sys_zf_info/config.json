@@ -1,0 +1,39 @@
+{
+  "config": [
+    {
+      "key":"face_sync",
+      "baseUrl":"http://192.168.1.228/",
+      "subUrl":"FaceDeviceWorkerApi/GetFaceLibraryUnsync"
+    },
+    {
+      "key":"add_auth_record",
+      "baseUrl":"http://192.168.1.228/",
+      "subUrl":"FaceAuthenticationApi/PostRecord"
+    },
+    {
+      "key":"face_sync_success",
+      "baseUrl":"http://192.168.1.228/",
+      "subUrl":"FaceDeviceWorkerApi/PutFlagSynced"
+    },
+    {
+      "key":"face_sync_invalid",
+      "baseUrl":"http://192.168.1.228/",
+      "subUrl":"FaceDeviceWorkerApi/PutFlagSyncFail"
+    },
+    {
+      "key":"upload_avatar",
+      "baseUrl":"http://192.168.1.228/",
+      "subUrl":"FaceAuthenticationApi/UploadFile"
+    },
+    {
+      "key":"upload_avatars",
+      "baseUrl":"http://192.168.1.228/",
+      "subUrl":"FaceAuthenticationApi/UploadFile"
+    },
+    {
+      "key":"ip_report",
+      "baseUrl":"http://192.168.1.228/",
+      "subUrl":"FaceDeviceApi/PutDevice"
+    }
+  ]
+}

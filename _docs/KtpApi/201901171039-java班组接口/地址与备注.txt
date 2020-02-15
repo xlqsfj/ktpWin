@@ -1,0 +1,13 @@
+新增
+
+https://syscs.ktpis.com/api/organ/create
+
+===============================================================
+
+修改编辑：
+
+https://syscs.ktpis.com/api/organ/updateOrgan
+=================================
+organId
+
+试用后查看返回值结构
